@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Sintony&family=Tomorrow&display=swap');
+
+body {
+    padding: 0;
+    margin: 0 auto;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    height: 80px;  
+    background: #FFFFFF;
+    z-index: 10;
+}
+
+.header-web {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px 0 100px;
+}
+
+.header-mob {
+    display: none;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Tomorrow';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+
+
+
+.hero-block {
+    height: 610px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Tomorrow';
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 140%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.hero-title {
+    width: auto;
+    text-align: left;
+    padding: 38px 100px 0 100px;
+    margin: 0;
+}
+
+.image-hero-block{
+    width: 533px;
+    height: 355px;
+    padding: 0;
+    margin: 0;
+}
+
+.hero-block-bckg-img {
+    position: absolute;
+    width: 100%;
+}
+
+.hero-bckg-img {
+    height: 610px;
+    width: 100%;
+    background-size: cover;
+}
+
+
+
+.second-block {
+    height: 610px;
+    display: flex;
+    align-items: center;
+}
+
+.second-block-img {
+    width: 288px;
+    height: 288px;
+    padding: 0 0 0 100px;
+}
+
+h2 {
+    font-family: 'Sintony';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 140%;
+    color: #000000;
+}
+
+.second-block-secondary-heading {
+    width: 815px;
+    padding: 32px;
+}
+
+
+
+.third-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    height: 862px;
+    background: linear-gradient(90deg, #8AA195 -7.01%, #332E0B 139.37%);
+}
+
+.third-block-bckg-img {
+    position: absolute;
+    height: 862px;
+    width: 100%;
+}
+
+.block-title {
+    width: 1030px;
+    color: #FFFFFF;
+}
+
+
+
+.fourth-block {
+    display: flex;
+    padding: 122px 0 122px 100px;
+}
+
+.fourth-block-img {
+    width: 606px;
+    height: 608px;
+}
+
+.fourth-block-text-container {
+    padding-left: 136px;
+    width: 500px;
+}
+
+.description-text {
+    font-family: 'Sintony';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 160%;
+    color: #000000;
+}
+
+
+
+@media (max-width: 400px) {
+
+    body {
+        padding: 0;
+        margin: 0 auto;
+    }
+    
+    header {
+        position: sticky;
+        top: 0px;
+        height: 60px;  
+        background: #FFFFFF;
+        z-index: 10;
+    }
+    
+    .header-web {
+        display: none;
+    }
+
+    .header-mob {
+        padding: 20px;
+        display: block;
+        margin: 0 auto;
+        height: 20px;
+    }
+    
+    .header-mob-menu-items {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .logo-svg {
+        width: 140px;
+        height: 14px;
+    }
+    
+    a {
+        text-decoration: none;
+        font-family: 'Tomorrow';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 130%;
+        letter-spacing: 0.04em;
+        color: #000000;
+    }
+    
+    
+    
+    .hero-block {
+        height: 547px;
+        text-align: center;
+    }
+    
+    h1 {
+        font-family: 'Tomorrow';
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 140%;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: #000000;
+        padding: 53px 20px 53px 20px;
+    }
+    
+    .hero-title {
+        width: auto;
+        text-align: left;
+        margin: 0;
+        padding: 53px 20px 53px 20px;
+    }
+    
+    .image-hero-block{
+        width: 280px;
+        height: 186px;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .hero-block-bckg-img {
+        position: absolute;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .hero-bckg-img {
+        height: 547px;
+        width: 100%;
+    }
+    
+    
+    
+    .second-block {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+        padding: 50px 20px 50px 20px;
+        height: auto;
+    }
+    
+    .second-block-img {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
+    
+    h2 {
+        font-family: 'Sintony';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 140%;
+        color: #000000;
+    }
+    
+    .second-block-secondary-heading {
+        width: auto;
+    }
+    
+    
+    
+    .third-block {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+        background: linear-gradient(90deg, #8AA195 -7.01%, #332E0B 139.37%);
+        height: 437px;
+    }
+    
+    .third-block-bckg-img {
+        position: absolute;
+        width: 100%;
+        height: 437px;
+        z-index: 1;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .block-title {
+        width: auto;
+        color: #FFFFFF;
+        z-index: 5;
+        padding: 30px 20px 30px 20px;
+    }
+    
+    
+    
+    .fourth-block {
+        display: block;
+        padding: 50px 20px 50px 20px;
+    }
+    
+    .fourth-block-img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .fourth-block-text-container {
+        width: auto;
+        padding: 0;
+        margin: 0;
+    }
+
+    .fourth-block-secondary-heading {
+        font-family: 'Sintony';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 140%;
+        color: #000000;
+    }
+    
+    .description-text {
+        font-family: 'Sintony';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 160%;
+        color: #000000;
+    }
+
+}
