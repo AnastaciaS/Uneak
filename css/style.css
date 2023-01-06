@@ -96,7 +96,7 @@ h1 {
     padding: 0 0 0 100px;
 }
 
-h2 {
+h3 {
     font-family: 'Sintony';
     font-weight: 400;
     font-size: 40px;
@@ -267,7 +267,7 @@ h2 {
         margin: 0;
     }
     
-    h2 {
+    h3 {
         font-family: 'Sintony';
         font-weight: 400;
         font-size: 20px;
