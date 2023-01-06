@@ -116,7 +116,7 @@ h3 {
     align-items: center;
     justify-content: center;
     text-align: left;
-    /*height: 862px;*/
+    height: 862px;
     background: linear-gradient(90deg, #8AA195 -7.01%, #332E0B 139.37%);
 }
 
@@ -287,7 +287,7 @@ h3 {
         justify-content: center;
         text-align: left;
         background: linear-gradient(90deg, #8AA195 -7.01%, #332E0B 139.37%);
-        /*height: 437px;*/
+        height: 437px;
     }
     
     .third-block-bckg-img {
