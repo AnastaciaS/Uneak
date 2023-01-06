@@ -85,7 +85,7 @@ h1 {
 
 
 .second-block {
-    /*height: 610px;*/
+    height: 610px;
     display: flex;
     align-items: center;
 }
@@ -208,7 +208,7 @@ h3 {
     
     
     .hero-block {
-        /*height: 547px;*/
+        height: 547px;
         text-align: center;
     }
     
