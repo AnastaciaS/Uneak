@@ -43,7 +43,7 @@ a {
 
 
 .hero-block {
-    height: 610px;
+    /*height: 610px;*/
     text-align: center;
 }
 
@@ -69,6 +69,7 @@ h1 {
     height: 355px;
     padding: 0;
     margin: 0;
+    z-index: 5;
 }
 
 .hero-block-bckg-img {
@@ -80,20 +81,20 @@ h1 {
     height: 610px;
     width: 100%;
     background-size: cover;
+    z-index: 1;
 }
 
 
 
 .second-block {
-    height: 610px;
     display: flex;
     align-items: center;
+    padding: 158px 0 164px 100px;
 }
 
 .second-block-img {
     width: 288px;
     height: 288px;
-    padding: 0 0 0 100px;
 }
 
 h3 {
@@ -116,18 +117,39 @@ h3 {
     align-items: center;
     justify-content: center;
     text-align: left;
-    height: 862px;
+    /*height: 862px;*/
     background: linear-gradient(90deg, #8AA195 -7.01%, #332E0B 139.37%);
+    background-size: cover;
+    
 }
 
 .third-block-bckg-img {
     position: absolute;
-    height: 862px;
+    height: 100%;
     width: 100%;
+    z-index: 1;
+}
+
+.third-b-bckg-img {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
 }
 
 .block-title {
     width: 1030px;
+    color: #FFFFFF;
+    z-index: 3;
+    padding: 214px 205px 214px 205px;
+}
+
+h2 {
+    font-family: 'Tomorrow';
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 140%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: #FFFFFF;
 }
 
@@ -305,6 +327,18 @@ h3 {
         z-index: 5;
         padding: 30px 20px 30px 20px;
     }
+
+    h2 {
+        font-family: 'Tomorrow';
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 140%;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    
     
     
     
